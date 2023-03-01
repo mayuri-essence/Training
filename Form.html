@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Form Practical</title>
+
+</head>
+<body>
+	<h1>This is Form Practical</h1>
+	<form action="" method="POST">
+		<table border=1>
+			<tr><th colspan="2">User Details</th></tr>
+			<tr>
+				<td><label>Name:</label></td> 
+				<td><input type="text" name="Username" placeholder="Enter Your Name"></td>
+			</tr>
+			<tr>
+				<td>Email:</td> 
+				<td><input type="email" name="Email" placeholder="Enter Your Email"></td>
+			</tr>
+			<tr>		
+				<td>Gender:</td> 
+				<td>Male
+					<input type="radio" name="gender" value="Male">
+					Female
+					<input type="radio" name="gender" value="Female"></td>
+			</tr>
+			<tr>
+				<td>Address:</td> 
+				<td><textarea rows="2" cols="50" name="Address" maxlength="200"></textarea></td>
+			</tr>
+			<tr>
+				<td>Hobbies: </td>
+				<td>Reading
+				<input type="checkbox" name="Hobbies" value="reading"> 
+					Sports
+				<input type="checkbox" name="Hobbies" value="sports"> 
+					Cycling
+				<input type="checkbox" name="Hobbies" value="cycling">
+				</td>
+	   		</tr>
+	   		<tr>	
+	    		<td>Mobile No.</td> 
+	    		<td><input type="tel" name="telephone" maxlength="10"></td>
+	    	</tr>
+	    	<tr>
+	    		<td>City:</td> 
+	    		<td><select name="dropdown">
+	    	  			<option value="Select City" selected>Select City</option>
+	      				<option value="Ahmedabad">Ahmedabad</option>
+	   	  				<option value="Surat">Surat</option>
+	   	  				<option value="Vadodara">Vadodara</option>
+	   	  				<option value="Gandhinagar">Gandhinagar</option>
+	   	  			</select></td>
+	   		</tr>
+	   		<tr>
+	   			<td>Password:</td>
+	   			<td><input type="password" name="pass" placeholder="Enter Your Password" ></td>
+	   		</tr>
+	   		<tr>
+	   			<td>Upload Image:</td>
+	   			<td><input type="file" name="fileupload" accept="images/*"></td>
+	   		</tr>
+	   		<tr>
+	   			<td colspan="2" align="center"><input type="submit" name="submit" value="Submit">
+	   							<input type="reset" name="reset" value="Reset"></td>
+	   		</tr>
+	   		<input type="number">
+	   		<input type="image" alt="Submit">
+	   		<input type="search" >
+	   		<input type="color" >
+	   		<input type="time" >
+	   		<input type="date" >
+	   		<input type="month" >
+	   		<input type="week" >
+	   		<input type="range" min="1" max="50">
+	   		<input type="url" >
+	   		
+	   </table>
+	</form>
+</body>
+</html>

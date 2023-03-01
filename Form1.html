@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Form Practical</title>
+
+</head>
+<body>
+	<h1>This is Form Practical</h1>
+	<form action="" method="POST" autocomplete="on">
+		<fieldset>
+			<legend>User Details</legend>
+
+			<label for="text">Name:</label>
+				<input type="text" name="Username" placeholder="Enter Your Name" autofocus><br><br>
+			
+			<label for="email">Email:</label>
+				<input type="email" name="Email" placeholder="Enter Your Email"><br><br>
+			
+			<label for="radio">Gender:</label>
+			<label for="radio">Male</label>
+				<input type="radio" name="gender" value="Male">
+			<label for="radio">Female</label>
+				<input type="radio" name="gender" value="Female"><br><br>
+
+			<label for="textarea">Address:</label> 
+				<textarea rows="2" cols="50" name="Address" maxlength="200"></textarea><br><br>
+
+			<label for="checkbox">Hobbies:</label>
+				<input type="checkbox" name="Hobbies" value="reading"> 
+			<label for="checkbox"> Reading</label>
+				<input type="checkbox" name="Hobbies" value="sports"> 
+			<label for="checkbox">Sports</label>
+				<input type="checkbox" name="Hobbies" value="cycling">
+			<label for="checkbox">Cycling</label><br><br>
+				
+	   		<label for="tel">Mobile No.</label>
+	   			<input type="tel" name="telephone" maxlength="10"><br><br>
+
+	    	<label for="select">City:</label>
+	    		<select name="dropdown">
+	    	  		<option value="Select City" selected>Select City</option>
+	      			<option value="Ahmedabad">Ahmedabad</option>
+					<option value="Surat">Surat</option>
+  					<option value="Vadodara">Vadodara</option>
+	   	  			<option value="Gandhinagar">Gandhinagar</option>
+	   	  		</select><br><br>
+
+	   		<label for="password">Password:</label>
+	   			<input type="password" name="pass" placeholder="Enter Your Password" ><br><br>
+
+	   		<label for="file">Upload Image:</label>
+	   			<input type="file" name="fileupload" accept="images/*"><br><br>
+	   		
+	   		<label for="number">select from range 1 to 10</label>
+	   			<input type="number" min="1" max="10"><br><br>
+
+	   		<label for="image">Submit button as image</label>
+	   			<input type="image" alt="Submit" src="https://www.tutorialspoint.com/html/images/html-mini-logo.jpg" height="100" width="100"><br><br>
+
+	   		<label for="search">Search</label>
+	   			<input type="search" ><br><br>
+
+	   		<label for="color">Choose Color</label>
+	   			<input type="color"><br><br>
+
+	   		<label for="date">Birthday</label>
+	   			<input type="date" ><br><br>
+
+	   		<label for="range">Range between 1 to 50</label>
+	   			<input type="range" min="1" max="50"><br><br>
+
+	   		<label for="url">Enter url</label>
+	   			<input type="url" ><br><br>
+
+	   		<input type="submit" name="submit" value="Submit">
+	   		<input type="reset" name="reset" value="Reset"><br><br>
+	</fieldset>
+	</form>
+</body>
+</html>
