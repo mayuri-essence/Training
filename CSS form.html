@@ -1,90 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    	<title>Form using CSS</title>
-    	<style>
-    		h1 {
-    			font-size: 25px;
-    			text-align: center;
-    		}
-    		
-    		label {
-    			font-size: 18px;
-        	}
-            
-            div {
-            	border: 1px solid #f2f2f2;
-            	border-radius: 5px;
-            	padding: 30px;
-            	margin: 20px ;
-            }
+	<head>
+		<title>Form using CSS</title>
+		<style>
+			h1 {
+				font-size: 25px;
+				text-align: center;
+			}
 
-            input[type=text] { 
-            	width: 100%;
-            	border-radius: 5px;
-            	padding: 10px;
-            	border: 1px solid #ccc;
-            	margin: 8px 0;
-            	box-sizing: border-box;	
-            }
-            
-            input[type=email] {
-            	width: 100%;
-            	border-radius: 5px;
-            	padding: 10px;
-            	border:1px solid #ccc;
-            	margin: 8px 0;
-            	box-sizing: border-box;
-            }
-            
-            input[type=password] {
-            	width: 100%;
-            	border-radius: 5px;
-            	padding: 10px;
-            	border: 1px solid #ccc;
-            	margin: 8px 0;
-            	box-sizing: border-box;
-            }
-            
-            input[type=submit] {
-            	width: 100%;
-            	background-color: limegreen ;
-            	color: white;
-            	padding: 14px 20px;
-            	margin: 8px 0;
-            	border: none;
-            	border-radius: 5px;
-            }
+			label {
+				font-size: 18px;
+			}
 
-            .submit:hover {
-            	background-color: green;
-            }
+			div {
+				border: 1px solid #f2f2f2;
+				border-radius: 5px;
+				padding: 30px;
+				margin: 20px;
+			}
 
-            input:focus {
-            	background-color: lightblue;
-            }
+			input[type=text] {
+				width: 100%;
+				border-radius: 5px;
+				padding: 10px;
+				border: 1px solid #ccc;
+				margin: 8px 0;
+				box-sizing: border-box;
+			}
 
-    	</style>
+			input[type=email] {
+				width: 100%;
+				border-radius: 5px;
+				padding: 10px;
+				border: 1px solid #ccc;
+				margin: 8px 0;
+				box-sizing: border-box;
+			}
+
+			input[type=password] {
+				width: 100%;
+				border-radius: 5px;
+				padding: 10px;
+				border: 1px solid #ccc;
+				margin: 8px 0;
+				box-sizing: border-box;
+			}
+
+			input[type=submit] {
+				width: 100%;
+				background-color: limegreen;
+				color: white;
+				padding: 14px 20px;
+				margin: 8px 0;
+				border: none;
+				border-radius: 5px;
+			}
+
+			.submit:hover {
+				background-color: green;
+			}
+
+			input:focus {
+				background-color: lightblue;
+			}
+		</style>
 	</head>
 	<body>
-	
-		<div>
-			<h1>Registration Form</h1>
-		<form>
-			<label for="fname">First Name:</label>
-			<input type="text" id="fname" name="fname" placeholder="Enter Your First Name">
-
-			<label for="lname">Last Name:</label>
-			<input type="text" name="lname" id="lname" placeholder="Enter Your Last Name">
-
-			<label for="email">Email:</label>
-			<input type="email" name="email" id="email"  placeholder="Enter Your Email Address">
-
-			<label for="pass">Password:</label>
-			<input type="password" name="password" id="pass" placeholder="Enter Your Password">
-
-			<input type="submit" name="submit"class="submit" value="Submit">
-		</form>
-	</div>
+	  <div>
+	    <h1>Registration Form</h1>
+	    <form>
+	      <label for="fname">First Name:</label>
+	      <input type="text" id="fname" name="fname" placeholder="Enter Your First Name">
+	  
+	      <label for="lname">Last Name:</label>
+	      <input type="text" name="lname" id="lname" placeholder="Enter Your Last Name">
+	  
+	      <label for="email">Email:</label>
+	      <input type="email" name="email" id="email" placeholder="Enter Your Email Address">
+	  
+	      <label for="pass">Password:</label>
+	      <input type="password" name="password" id="pass" placeholder="Enter Your Password">
+	  
+	      <input type="submit" name="submit" class="submit" value="Submit">
+	    </form>
+	  </div>
 	</body>
 </html>
